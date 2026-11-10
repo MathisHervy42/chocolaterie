@@ -92,11 +92,9 @@ body {
 
 .container-1200 {
   max-width: 1200px;
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
   /*vous pouvez enlever le padding si il vous gene*/
-  padding: 16px;
 }
 
 .responsive {
@@ -602,7 +600,6 @@ a {
 
 header {
   background-color: var(--troisieme-plan);
-  padding: 16px 64px;
   position: sticky;
   top: 0px;
   left: 0px;
@@ -1038,16 +1035,11 @@ section{
   font-size: 20px; 
 }
 
+.text64px{
+  font-size: 64px;
+}
 .PlayfairD{
   font-family: 'Playfair Display';
-}
-
-.container-1000b {
-  max-width: 1000px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  /*vous pouvez enlever le padding si il vous gene*/
 }
 
 .connect {
@@ -1076,7 +1068,7 @@ section{
 
 .backimage{
   background-image: url("Asset/backimage.png");
-  height: 100vh;
+  height: 80vh;
   background-repeat: no-repeat;
-  justify-content: center;
+  background-size: cover;
 }
