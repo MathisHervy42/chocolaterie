@@ -88,7 +88,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   /*vous pouvez enlever le padding si il vous gene*/
-  padding: 16px;
 }
 
 .container-1200 {
@@ -155,6 +154,10 @@ body {
 
 .gap {
   gap: var(--gap);
+}
+
+.gap8{
+  gap: 8px;
 }
 
 
@@ -512,7 +515,6 @@ a {
 .text-center {
   text-align: center;
 }
-
 
 /* ANCHOR: 🚀 Margins and paddings  */
 
@@ -1015,4 +1017,39 @@ html{
 }
 section{
   scroll-margin-top: 100px ;
+}
+
+
+/*ANCHOR: Ajouts persos*/ 
+.darkgrey{
+  color:#2E2A26;
+}
+
+.text25px{
+  font-size: 25px; 
+}
+
+.PlayfairD{
+  font-family: 'Playfair Display';
+}
+
+.container-1000b {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /*vous pouvez enlever le padding si il vous gene*/
+}
+
+.beige{
+   background-color: #ead8c3;
+}
+
+.connect {
+  display: inline-block;
+  background-image: url(Asset/seconnecter.png);
+  padding: 10px 18px;
+  cursor: pointer;
+
+  border: 2px solid var(--primary);
 }
