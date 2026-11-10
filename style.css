@@ -1020,13 +1020,22 @@ section{
 }
 
 
-/*ANCHOR: Ajouts persos*/ 
+/*ANCHOR: Ajouts persos*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); 
+
+.beige{
+   background-color: #ead8c3;
+}
+
 .darkgrey{
   color:#2E2A26;
 }
 
-.text25px{
-  font-size: 25px; 
+.white{
+  color: #fff;
+}
+.text20px{
+  font-size: 20px; 
 }
 
 .PlayfairD{
@@ -1041,10 +1050,6 @@ section{
   /*vous pouvez enlever le padding si il vous gene*/
 }
 
-.beige{
-   background-color: #ead8c3;
-}
-
 .connect {
   display: inline-block;
   background-image: url(Asset/seconnecter.png);
@@ -1052,4 +1057,26 @@ section{
   cursor: pointer;
 
   border: 2px solid var(--primary);
+}
+
+.bold{
+  font-style: bold;
+}
+
+.mainbtn {
+  display: inline-block;
+
+  padding: 10px 18px;
+  border-radius: 16px;
+  cursor: pointer;
+  color: #FF6666;
+
+  border: 2px solid var(--primary);
+}
+
+.backimage{
+  background-image: url("Asset/backimage.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  justify-content: center;
 }
