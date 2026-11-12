@@ -12,7 +12,7 @@
     <!-- /* ANCHOR: Header*/ -->
     <header class="beige">
         <div class="container-1200 flex justify-between">
-            <img src="Asset/logo.png" alt="Logo du Palais du Chocolat" class="large-4">
+            <img src="Asset/vrailogo.png" alt="Logo du Palais du Chocolat" class="large-4">
             <nav class="flex align-center">
                 <a href="#chocolats" class="PlayfairD darkgrey text30px">Nos produits</a>
                 <a href="services.html" class="PlayfairD darkgrey text30px">Nos services</a>
@@ -23,10 +23,13 @@
         </div>
     </header>
     <!-- /* ANCHOR: Section principale*/ -->
-    <section class="flex backimage">
+    <section class="backimage">
         <div class="container-1200">
-            <h1 class="bold white text64px">Offrez des cadeaux gourmands pour les fêtes</h1>
-            <a href="" class="mainbtn"></a>
+            <h1 class="bold white px64">Offrez des cadeaux <br>gourmands pour <br>les fêtes</h1>
+            <div class="">
+                <a href="" class="mainbtn">Découvrir</a>
+            </div>
+        </div>
         </div>
     </section>
     <!-- /* ANCHOR: nos chocolats*/ -->
@@ -38,86 +41,97 @@
             <div class="flex justify-between">
                 <div class="cardNC">
                     <img src="Asset/praline.png" alt="Praliné Croustillant" width="100%">
-                    <h3>Praliné Croustillant</h3>
-                    <p>Une ganache fondante au praliné, agrémentée d'éclats de noisettes croustillants. Un véritable
+                    <h3 class="chocotitre">Praliné Croustillant</h3>
+                    <p class="chocopara">Une ganache fondante au praliné, agrémentée d'éclats de noisettes croustillants. Un véritable
                         délice pour les amateurs de chocolat et de fruits secs.</p>
-                    <a href="">Commander</a>
+                    <a href="" class="secbtn flexbtn margbtn">Commander</a>
                 </div>
                 <div class="cardNC">
                     <img src="Asset/truffe-champagne.png" alt="Truffe au Champagne" width="100%">
-                    <h3>Truffe au Champagne</h3>
-                    <p>Une ganache onctueuse et légèrement pétillante, enrobée de chocolat noir. Une saveur subtile et
-                        délicate, idéale pour les fêtes et les célébrations.</p>
-                    <a href="">Commander</a>
+                    <div class="column">
+                        <h3 class="chocotitre">Truffe au Champagne</h3>
+                        <p class="chocopara">Une ganache onctueuse et légèrement pétillante, enrobée de chocolat noir. Une saveur subtile et délicate, idéale pour les fêtes et les célébrations.</p>
+                        <a href="" class="secbtn flexbtn margbtn">Commander</a>
+                    </div>
+
                 </div>
                 <div class="cardNC">
                     <img src="Asset/tablette.png" alt="Tablette de chocolat noir" width="100%">
-                    <h3>Tablette de Chocolat noir</h3>
-                    <p>Un chocolat noir intense et puissant, aux notes de cacao amer et de fruits secs. Un grand
+                    <h3 class="chocotitre">Tablette de Chocolat noir</h3>
+                    <p class="chocopara">Un chocolat noir intense et puissant, aux notes de cacao amer et de fruits secs. Un grand
                         classique de la chocolaterie, à déguster seul ou à utiliser en cuisine.</p>
-                    <a href="">Commander</a>
+                    <a href="" class="secbtn flexbtn margbtn">Commander</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- /* ANCHOR: Offre du moment*/ -->
     <section class="grisclair ptb-32">
-        <div class="flex container-1200">
-        <div>
-            <h2>Notre offre du moment...</h2>
-        </div>
-        <div class="flex cardoffre">
-            <img src="Asset/Coffret.png" alt="Coffret de chocolats assortis" class="large-3">
-            <div class="large-8">
-            <h3>Coffret de chocolats assortis</h3>
-            <p>Un assortiment de chocolats fins,sélectionnés avec soin par nos chocolatiers. Un cadeau gourmand et raffiné, qui fera plaisir à coup sûr</p>
-            <a href="">Commander</a>
+        <div class="container-1200">
+            <div>
+                <h2 class="brown inter italic px38">Notre offre du moment...</h2>
             </div>
-        </div>
+            <div class="flex cardoffre">
+                <img src="Asset/Coffret.png" alt="Coffret de chocolats assortis" class="large-3">
+                <div class="large-12 p-16">
+                    <h3>Coffret de chocolats assortis</h3>
+                    <p>Un assortiment de chocolats fins,sélectionnés avec soin par nos chocolatiers. Un cadeau gourmand
+                        et raffiné, qui fera plaisir à coup sûr</p>
+                    <a href="" class="mainbtn">Commander</a>
+                </div>
+            </div>
         </div>
     </section>
     <!-- /* ANCHOR: Avis clients*/ -->
     <section class="beige">
         <div class="container-1200">
-        <h2>Avis clients</h2>
-        <div>
-            <div>
-                <img src="Asset/sophie.png" alt="Sophie">
-                <h3>Sophie</h3>
-                <a href="seconnecter.html" class=>
-                    <img width="50px" height="50px" src="Asset/Etoile.png">
+            <h2 class="px38">Avis clients</h2>
+            <div class="flex gap8 margbtn2">
+                <div class="flex cardTT">
+                    <img src="Asset/sophie.png" alt="Sophie" class="wphoto">
+                    <h3>Sophie</h3>
+                    <a href="seconnecter.html" class=>
+                        <img width="50px" height="50px" src="Asset/Etoile.png" class="etoile">
+                </div>
+                <div class="flex cardTT2">
+                    <p>Le coffret de chocolats que j'ai offert était magnifique et délicieux. Les saveurs étaient
+                        variées et
+                        originales, et la présentation était très soignée. Un grand merci au Palais du Chocolat pour ce
+                        cadeau parfait.</p>
+                </div>
             </div>
-            <div>
-                <p>Le coffret de chocolats que j'ai offert était magnifique et délicieux. Les saveurs étaient variées et
-                    originales, et la présentation était très soignée. Un grand merci au Palais du Chocolat pour ce
-                    cadeau parfait.</p>
+            <div class="flex gap8 margbtn2">
+                <div class="flex cardTT">
+                    <img src="Asset/Antoine.png" alt="Antoine" class="wphoto">
+                    <h3>Antoine</h3>
+                    <a href="seconnecter.html" class=>
+                        <img width="50px" height="50px" src="Asset/Etoile.png">
+                </div>
+                <div class="flex cardTT2">
+                    <p>Les chocolats du Palais du Chocolat ont été un véritable succès lors de notre mariage. Tout le
+                        monde a adoré les saveurs raffinées et les présentations élégantes. Un grand bravo à toute
+                        l'équipe.</p>
+                </div>
+            </div>
+            <div class="flex gap8 margbtn2">
+                <div class="flex cardTT">
+                    <img src="Asset/nicolas.png" alt="Nicolas" class="wphoto">
+                    <h3>Nicolas</h3>
+                    <a href="seconnecter.html" class=>
+                        <img width="50px" height="50px" src="Asset/Etoile.png">
+                </div>
+                <div class="flex cardTT2">
+                    <p>
+                        J'ai acheté une tablette de chocolat noir au Palais du Chocolat et je n'ai pas été déçu. Le
+                        chocolat était intense et puissant, avec des notes subtiles de fruits secs. Un vrai régal pour
+                        les papilles-
+                    </p>
+                </div>
             </div>
         </div>
-        <div>
-        <div>
-            <img src="Asset/Antoine.png">
-            <h3>Antoine</h3>
-            <a href="seconnecter.html" class=>
-                <img width="50px" height="50px" src="Asset/Etoile.png">
-        </div>
-        <div>
-            <p>Les chocolats du Palais du Chocolat ont été un véritable succès lors de notre mariage. Tout le monde a adoré les saveurs raffinées et les présentations élégantes. Un grand bravo à toute l'équipe.</p>
-        </div>
-        </div>
-        <div>
-        <div>
-            <img src="Asset/nicolas.png">
-            <h3>Nicolas</h3>
-            <a href="seconnecter.html" class=>
-                <img width="50px" height="50px" src="Asset/Etoile.png">
-        </div>
-        <div>
-            <p>
-              J'ai acheté une tablette de chocolat noir au Palais du Chocolat et je n'ai pas été déçu. Le chocolat était intense et puissant, avec des notes subtiles de fruits secs. Un vrai régal pour les papilles-  
-            </p>
-        </div>
-        </div>
-        </div>
+    </section>
+    <section class="container-1200">
+        <h2>Nos engagements</h2>
     </section>
 </body>
 
