@@ -126,7 +126,7 @@ body {
   justify-content: space-between;
 }
 
-.justify-around {
+.justify-around{
   justify-content: space-around;
 }
 
@@ -134,7 +134,7 @@ body {
   justify-content: center;
 }
 
-.align-center {
+.center {
   align-items: center;
 }
 
@@ -1025,6 +1025,9 @@ section{
    background-color: #ead8c3;
 }
 
+.grisclair{
+  background-color:#7676A9;
+}
 .darkgrey{
   color:#2E2A26;
 }
@@ -1032,8 +1035,12 @@ section{
 .white{
   color: #fff;
 }
-.text20px{
-  font-size: 20px; 
+
+.brown{
+  color: #533010;
+}
+.text30px{
+  font-size: 30px; 
 }
 
 .text64px{
@@ -1041,6 +1048,10 @@ section{
 }
 .PlayfairD{
   font-family: 'Playfair Display';
+}
+
+.inter{
+  font-family: 'Inter';
 }
 
 .connect {
@@ -1056,6 +1067,9 @@ section{
   font-style: bold;
 }
 
+.italic{
+  font-style: italic;
+}
 .mainbtn {
   display: inline-block;
 
@@ -1076,6 +1090,22 @@ section{
 .cardNC {
   border-radius: 16px;
   background-color: #6C2815;
-  justify-content: space-between;
-  height: 80vh;
+  width: 28%;
+}
+
+.cardoffre{
+  border-radius: 64px;
+  background-color: #D9D9D9;
+  width: 80%;
+}
+.W40{
+  width: 40%;
+}
+
+.px64 {
+  font-size: 64px
+}
+
+.justify-left{
+  justify-content: flex-start;
 }
