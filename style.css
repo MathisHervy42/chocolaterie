@@ -600,6 +600,7 @@ a {
 
 header {
   background-color: var(--troisieme-plan);
+  padding: 16px 64px;
   position: sticky;
   top: 0px;
   left: 0px;
@@ -1062,7 +1063,6 @@ section{
   border-radius: 16px;
   cursor: pointer;
   color: #FF6666;
-
   border: 2px solid var(--primary);
 }
 
@@ -1071,4 +1071,11 @@ section{
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.cardNC {
+  border-radius: 16px;
+  background-color: #6C2815;
+  justify-content: space-between;
+  height: 80vh;
 }
