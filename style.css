@@ -26,6 +26,47 @@ box-sizing: border-box;
   flex-wrap: wrap;
 }
 
+.justify-between {
+  justify-content: space-between;
+} 
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-left{
+  justify-content: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+}
+
+/*ANCHOR: Largeurs*/
+.W20{
+  width: 20%;
+}
+.W40{
+  width: 40%;
+}
+
+.large-4 {
+  width: calc(33.3333333333% - 2 * var(--gap) / 3);
+}
+
+.gap8{
+  gap: 8px;
+}
+
+.gap16{
+  gap: 16px;
+}
 /*ANCHOR: Container & background*/
 .container-1200 {
   max-width: 1200px;
@@ -58,6 +99,10 @@ box-sizing: border-box;
   font-style: italic;
 }
 
+.underline{
+  text-decoration: none;
+}
+
 .darkgrey{
   color:#2E2A26;
 }
@@ -69,13 +114,26 @@ box-sizing: border-box;
 .brown{
   color: #533010;
 }
-.text30px{
+
+.px15{
+  font-size: 20px; 
+}
+
+.px30{
   font-size: 30px; 
 }
 
-.text64px{
-  font-size: 64px;
+.px38{
+  font-size: 38px;
 }
+
+.px50{
+  font-size: 50px;
+}
+.px64 {
+  font-size: 64px
+}
+
 .PlayfairD{
   font-family: 'Playfair Display';
 }
@@ -132,10 +190,11 @@ box-sizing: border-box;
   margin-bottom: 20px;
 }
 
-.gap8{
-  gap: 8px;
+.pad32 {
+  padding: 32px;
 }
 
+/*ANCHOR: Cartes */
 .cardNC {
   border-radius: 16px;
   background-color: #6C2815;
@@ -159,57 +218,20 @@ box-sizing: border-box;
   width: 70%;
   height: 100%;
 }
-.W40{
-  width: 40%;
-}
 
-.px32 {
-  padding: 32px;
-}
 
-.px38{
-  font-size: 38px;
-}
-
-.px64 {
-  font-size: 64px
-}
-
-.justify-between {
-  justify-content: space-between;
-} 
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-left{
-  justify-content: flex-start;
-}
-
+/*ANCHOR: Modifs perso*/
 .wphoto{
   height: 100px;
   width: 100px;
 }
 
-.column{
-  display: flex;
-  flex-direction: column;
-justify-content: space-between;
-}
 
 .etoile{
   justify-content: center;
   align-items: center;
 }
 
-.large-4 {
-  width: calc(33.3333333333% - 2 * var(--gap) / 3);
-}
-
-.align-center {
-  align-items: center;
-}
 
 .chocotitre{
   color:white;
