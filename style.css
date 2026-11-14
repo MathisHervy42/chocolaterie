@@ -42,10 +42,14 @@ box-sizing: border-box;
   align-items: center;
 }
 
+.align-end {
+  align-items:end;
+}
+
 .column{
   display: flex;
   flex-direction: column;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 /*ANCHOR: Largeurs*/
@@ -68,6 +72,13 @@ justify-content: space-between;
   gap: 16px;
 }
 /*ANCHOR: Container & background*/
+.container-800 {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  /*vous pouvez enlever le padding si il vous gene*/
+}
+
 .container-1200 {
   max-width: 1200px;
   margin-left: auto;
@@ -82,6 +93,12 @@ justify-content: space-between;
   background-size: cover;
 }
 
+.noelimage{
+  background-image: url(Asset/noel.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
 .beige{
    background-color: #ead8c3;
 }
@@ -92,7 +109,11 @@ justify-content: space-between;
 
 /*ANCHOR: Typographie*/
 .bold{
-  font-style: bold;
+  font-weight: bold;
+}
+
+.light{
+  font-weight: lighter;
 }
 
 .italic{
@@ -170,7 +191,6 @@ justify-content: space-between;
   border-radius: 16px;
   cursor: pointer;
   background-color: #D9D9D9;
-  font-size: 15px;
   text-decoration: none;
   font-weight: 900;
   font-size: 24px;
@@ -190,6 +210,9 @@ justify-content: space-between;
   margin-bottom: 20px;
 }
 
+.mtop20{
+  margin-top: 20px;
+}
 .pad32 {
   padding: 32px;
 }
@@ -210,7 +233,7 @@ justify-content: space-between;
 .cardTT {
   border-top-left-radius: 35%;
   background-color: #ac988a;
-  width: 80%;
+  width: 40%;
 }
 
 .cardTT2{
